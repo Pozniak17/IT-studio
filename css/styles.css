@@ -6,6 +6,12 @@
   --first-text-color: #999999;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -50,11 +56,7 @@ img {
 .nav-link {
   color: var(--white-color-color);
   text-decoration: none;
-
-  font-family: Montserrat;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
 }
 
 /* -----------hero---------- */
@@ -65,17 +67,13 @@ img {
 .hero-first-title {
   color: var(--white-color-color);
 
-  font-family: Montserrat;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
   text-align: center;
 }
 
 .hero-second-title {
   color: var(--white-color-color);
 
-  font-family: Montserrat;
   font-weight: 800;
   font-size: 48px;
   line-height: 1.33;
@@ -89,16 +87,12 @@ img {
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
 
-  font-family: Montserrat;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
   text-align: center;
 }
 
 /* ------------project------------ */
 .project-title {
-  font-family: Montserrat;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
@@ -108,8 +102,6 @@ img {
 .pretext {
   color: var(--first-text-color);
 
-  font-family: Montserrat;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
 }
@@ -117,9 +109,6 @@ img {
 .text {
   color: var(--first-text-color);
 
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.56;
   text-align: center;
 }
@@ -127,7 +116,6 @@ img {
 .pretitle {
   color: var(--first-title-color);
 
-  font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.38;
@@ -140,7 +128,7 @@ img {
 
 .features-title {
   color: var(--second-title-color);
-  font-family: Montserrat;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
@@ -149,7 +137,6 @@ img {
 .features-text {
   color: var(--first-text-color);
 
-  font-family: Montserrat;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.56;
@@ -158,16 +145,13 @@ img {
 .features-link {
   color: var(--accent-color);
 
-  font-family: Montserrat;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
   text-decoration: underline;
 }
 
 .example-accent {
   color: var(--first-title-color);
-  font-family: Montserrat;
+
   font-weight: normal;
   font-size: 36px;
   line-height: 1.47;
@@ -176,9 +160,7 @@ img {
 .example-text {
   color: var(--first-text-color);
 
-  font-family: Montserrat;
   font-weight: normal;
-  font-size: 16px;
   line-height: 1.56;
 }
 /* ------------works------------ */
@@ -188,7 +170,7 @@ img {
 
 .works-title {
   color: var(--white-color-color);
-  font-family: Montserrat;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
@@ -206,7 +188,6 @@ img {
 .cases-title {
   color: var(--first-title-color);
 
-  font-family: Montserrat;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
@@ -221,7 +202,6 @@ img {
 .media-title {
   color: var(--white-color-color);
 
-  font-family: Montserrat;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
@@ -231,9 +211,6 @@ img {
 .media-text {
   color: var(--white-color-color);
 
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.56;
   text-align: center;
 }
@@ -242,7 +219,6 @@ img {
 .subscript-main-text {
   color: var(--first-title-color);
 
-  font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -252,9 +228,6 @@ img {
 .subscript-second-text {
   color: var(--first-text-color);
 
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.56;
   text-align: center;
 }
@@ -262,7 +235,6 @@ img {
 .subscript-text {
   color: var(--first-text-color);
 
-  font-family: Montserrat;
   font-weight: 400;
   font-size: 13px;
   line-height: 1.62;
@@ -273,7 +245,6 @@ img {
 .contacts-title {
   color: var(--first-title-color);
 
-  font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.38;
@@ -283,7 +254,6 @@ img {
   color: var(--first-text-color);
   text-decoration: none;
 
-  font-family: Montserrat;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
@@ -292,7 +262,6 @@ img {
 .copyright {
   color: var(--first-text-color);
 
-  font-family: Montserrat;
   font-weight: 400;
   font-size: 13px;
   line-height: 1.67;

@@ -1,5 +1,6 @@
 :root {
   --accent-color: #4985ff;
+  --accent-second-color: #2956b1;
   --white-color-color: #ffffff;
   --first-title-color: #000000;
   --second-title-color: #323232;
@@ -60,6 +61,10 @@ img {
   font-weight: 500;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
 /* -----------hero---------- */
 .hero {
   background-color: brown;
@@ -90,6 +95,13 @@ img {
 
   font-weight: 500;
   text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2956b1;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
 }
 
 /* ------------project------------ */
@@ -246,6 +258,11 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
 }
 
 .copyright {

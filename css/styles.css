@@ -68,33 +68,40 @@ img {
 /* -----------hero---------- */
 .hero {
   background-color: brown;
+  text-align: center;
+  padding-top: 219px;
+  padding-bottom: 335px;
 }
 
 .hero-first-title {
   color: var(--white-color-color);
 
+  margin-bottom: 20px;
+
   font-weight: 500;
-  text-align: center;
 }
 
 .hero-second-title {
   color: var(--white-color-color);
 
+  margin-bottom: 50px;
+
   font-weight: 800;
   font-size: 48px;
   line-height: 1.33;
-  text-align: center;
 }
 
 .button {
+  display: inline-block;
   color: var(--white-color-color);
   background-color: var(--accent-color);
   text-decoration: none;
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
 
+  padding: 13px 36px 15px;
+
   font-weight: 500;
-  text-align: center;
 }
 
 .button:hover,
@@ -105,11 +112,22 @@ img {
 }
 
 /* ------------project------------ */
+.project {
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+
 .project-title {
+  color: var(--second-title-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
-  text-align: center;
+}
+
+.project-text {
+  margin-bottom: 70px;
 }
 
 .pretext {
@@ -119,24 +137,33 @@ img {
 
 .text {
   line-height: 1.56;
-  text-align: center;
 }
 
 .pretitle {
   color: var(--first-title-color);
+
+  margin-bottom: 12px;
 
   font-weight: 600;
   font-size: 18px;
   line-height: 1.38;
 }
 
+.project-list {
+  margin-bottom: 55px;
+}
+
 /* features */
 .features {
   background-color: #f6f6f8;
+  padding-top: 100px;
+  padding-bottom: 90px;
 }
 
 .features-title {
   color: var(--second-title-color);
+
+  margin-bottom: 40px;
 
   font-weight: 700;
   font-size: 36px;
@@ -144,10 +171,28 @@ img {
 }
 /* Загальний клас */
 .features-text {
+  margin-bottom: 30px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.56;
 }
+
+.features-image {
+  color: #f6f6f8;
+}
+
+.features-wrapper-first {
+  width: 489px;
+  margin-top: 52px;
+  margin-right: 121px;
+}
+
+.features-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 /* Загальний клас */
 .features-link {
   color: var(--accent-color);
@@ -164,13 +209,20 @@ img {
   line-height: 1.47;
 }
 
+.example {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 .example-text {
   font-weight: normal;
   line-height: 1.56;
 }
 /* ------------works------------ */
 .works {
-  background-color: purple;
+  padding-top: 100px;
+  padding-bottom: 170px;
+
+  background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
 }
 
 .works-title {
@@ -188,6 +240,9 @@ img {
 /* ---------cases--------- */
 .cases {
   background-color: #f6f6f8;
+  padding-top: 100px;
+  padding-bottom: 130px;
+  text-align: center;
 }
 
 .cases-title {
@@ -196,12 +251,20 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
-  text-align: center;
 }
 
+.cases .features-text {
+  margin-bottom: 70px;
+}
+
+.cases-list {
+  margin-bottom: 50px;
+}
 /* ---------media---------- */
 .media {
   background-color: grey;
+  padding-top: 70px;
+  text-align: center;
 }
 
 .media-title {
@@ -210,19 +273,23 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
-  text-align: center;
 }
 
 .media-text {
   color: var(--white-color-color);
 
   line-height: 1.56;
-  text-align: center;
 }
 
 /* subscript */
+.subscript {
+  background-color: var(--white-color-color);
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
 .subscript-main-text {
   color: var(--first-title-color);
+  margin-bottom: 20px;
 
   font-weight: 600;
   font-size: 18px;
@@ -233,6 +300,7 @@ img {
 .subscript-second-text {
   line-height: 1.56;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .subscript-text {
@@ -243,12 +311,25 @@ img {
 }
 
 /* --------contacts-------- */
+.contacts {
+  background-color: #f6f6f8;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
 .contacts-title {
   color: var(--first-title-color);
+  margin-bottom: 35px;
 
   font-weight: 600;
   font-size: 18px;
   line-height: 1.38;
+}
+
+.contacts-item {
+  margin-bottom: 30px;
+}
+.contacts-item:last-child {
+  margin-bottom: 0;
 }
 
 .contacts-link {
@@ -265,8 +346,16 @@ img {
   color: var(--accent-color);
 }
 
+.contacts-wrapper {
+  margin: 0 auto;
+  width: 1110px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
 .copyright {
   font-weight: 400;
+  padding-top: 30px;
   font-size: 13px;
   line-height: 1.67;
   text-align: center;
